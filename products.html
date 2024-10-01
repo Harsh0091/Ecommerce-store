@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>All Products - Gamestore.gg</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="250px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+<!-------- featured Games -------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price High to Low</option>
+                <option>Price Low to High</option>
+                <option>Sort by Category</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/game1.jpg" width="200px" height="300px">
+                <h4>Grand Theft Auto 5</h4>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game2.jpg" width="200px" height="300px">
+                <h4>Red Dead Redemption 2</h4>
+                <p>$15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game3.jpg" width="200px" height="300px">
+                <h4>Forza Horizon 5</h4>
+                <p>$25.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game4.jpg" width="200px" height="300px">
+                <h4>Call of Duty MW 3</h4>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/game5.jpg" width="200px" height="300px">
+                <h4>EA Sports FC™ 24</h4>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game6.jpg" width="200px" height="300px">
+                <h4>NBA 2K23</h4>
+                <p>$8.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game7.jpg" width="200px" height="300px">
+                <h4>Elden Ring</h4>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game8.jpg" width="200px" height="300px">
+                <h4>Starfield</h4>
+                <p>$40.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/game9.jpg" width="200px" height="300px">
+                <h4>Stray</h4>
+                <p>$7.5</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game10.jpg" width="200px" height="300px">
+                <h4>Cyberpunk 2077</h4>
+                <p>$18.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game11.jpg" width="200px" height="300px">
+                <h4>Tekken 8</h4>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/game12.jpg" width="200px" height="300px">
+                <h4>Minecraft</h4>
+                <p>$25.00</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <a href="productdetails.html"><img src="images/gamecard1.jpg" width="200px" height="300px"></a>
+                <h4>Valorant(IN)</h4>
+                <p>$5 - $100 VP</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard2.jpg" width="200px" height="300px">
+                <h4>League of Legends(Global)</h4>
+                <p>$5 - $100 RP</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard3.jpg" width="200px" height="300px">
+                <h4>Fortnite V Bucks</h4>
+                <p>$10 - $100</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard4.jpg" width="200px" height="300px">
+                <h4>Roblox</h4>
+                <p>$10 - $100</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/gamecard5.jpg" width="200px" height="300px">
+                <h4>Free Fire Diamonds</h4>
+                <p>$1 - $20</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard6.jpg" width="200px" height="300px">
+                <h4>Pubg Mobile UC</h4>
+                <p>$1 - $100</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard7.jpg" width="200px" height="300px">
+                <h4>Genshin Impact</h4>
+                <p>$1 - $100</p>
+            </div>
+            <div class="col-4">
+                <img src="images/gamecard8.jpg" width="200px" height="300px">
+                <h4>Call of Duty Mobile</h4>
+                <p>$1 - $100</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/giftcard1.jpg" width="200px" height="300px">
+                <h4>Steam Wallet Code(IN)</h4>
+                <p>₹99 - ₹2500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard2.jpg" width="200px" height="300px">
+                <h4>Xbox Gift Card(Global)</h4>
+                <p>$12.00 - $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard3.jpg" width="200px" height="300px">
+                <h4>Amazon Gift Card(IN)</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard4.jpg" width="200px" height="300px">
+                <h4>Razer Gold(BR)</h4>
+                <p>$1.00 - $20.00</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/giftcard5.jpg" width="200px" height="300px">
+                <h4>Blizzard.net</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard6.jpg" width="200px" height="300px">
+                <h4>Origin</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard7.jpg" width="200px" height="300px">
+                <h4>Google Play Store</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard8.jpg" width="200px" height="300px">
+                <h4>PSN Gift Card</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="images/giftcard9.jpg" width="200px" height="300px">
+                <h4>Spotify Premium 12M</h4>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard10.jpg" width="200px" height="300px">
+                <h4>Netflix 1M</h4>
+                <p>$5.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard11.jpg" width="200px" height="300px">
+                <h4>iTunes Gift Card</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/giftcard12.jpg" width="200px" height="300px">
+                <h4>Unipin Gift Card(IN)</h4>
+                <p>$5.00 - $100.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#x2799</span>
+        </div>
+    </div>
+
+<!-------- footer -------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download the app for android and ios.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/image1.png">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of Gamers Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <P class="copyright">By using this website, you agree to the Terms and Conditions and Privacy Policy. All rights reserved to their respective owners for all copyrights, trademarks, and service marks.</P>
+        </div>
+    </div>
+<!-------- js for menutoggle -------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
